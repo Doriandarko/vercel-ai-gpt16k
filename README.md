@@ -1,6 +1,6 @@
 # Vercel AI SDK, Next.js, and OpenAI Chat Example
 
-This example shows how to use the [Vercel AI SDK](https://sdk.vercel.ai/docs) with [Next.js](https://nextjs.org/) and [OpenAI](https://openai.com) to create a ChatGPT-like AI-powered streaming chat bot.
+This example shows how to use the [Vercel AI SDK](https://sdk.vercel.ai/docs) with [Next.js](https://nextjs.org/) and [OpenAI](https://openai.com) to create a ChatGPT-like AI-powered streaming chat bot.Using the new 16k context model.
 
 ## Deploy your own
 
@@ -10,21 +10,7 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 ## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example https://github.com/vercel-labs/ai/tree/main/examples/next-openai next-openai-app
-```
-
-```bash
-yarn create next-app --example https://github.com/vercel-labs/ai/tree/main/examples/next-openai next-openai-app
-```
-
-```bash
-pnpm create next-app --example https://github.com/vercel-labs/ai/tree/main/examples/next-openai next-openai-app
-```
-
-To run the example locally you need to:
+Copy this repo then to run the example locally you need to:
 
 1. Sign up at [OpenAI's Developer Platform](https://platform.openai.com/signup).
 2. Go to [OpenAI's dashboard](https://platform.openai.com/account/api-keys) and create an API KEY.
