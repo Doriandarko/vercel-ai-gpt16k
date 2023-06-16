@@ -10,16 +10,21 @@
   },
   "dependencies": {
     "ai": "2.0.1",
+    "class-variance-authority": "^0.6.0",
+    "clsx": "^1.2.1",
+    "lucide-react": "^0.244.0",
     "next": "13.4.4-canary.11",
     "openai-edge": "^0.5.1",
     "react": "18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwind-merge": "^1.13.2",
+    "tailwindcss-animate": "^1.0.6"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",
-    "autoprefixer": "^10.4.14",
     "@types/react": "18.2.7",
     "@types/react-dom": "18.2.4",
+    "autoprefixer": "^10.4.14",
     "eslint": "^7.32.0",
     "eslint-config-next": "13.4.4-canary.11",
     "postcss": "^8.4.23",
