@@ -8,14 +8,14 @@ export default function Chat() {
   const { messages, input, handleInputChange, handleSubmit } = useChat()
 
   return (
-    <div className="flex flex-col w-full max-w-md py-24 mx-auto stretch">
+    <div className="flex flex-col w-full max-w-lg py-24 mx-auto stretch">
       {messages.length > 0
         ? messages.map((m) => (
             <Message key={m.id} role={m.role} content={m.content} />
           ))
         : null}
 
-      <form onSubmit={handleSubmit} className="flex justify-between items-center fixed bottom-0 w-full max-w-md p-2 mb-8 border border-gray-300 rounded shadow-xl">
+      <form onSubmit={handleSubmit} className="flex justify-between items-center fixed bottom-0 w-full max-w-lg p-2 mb-8 border border-gray-300 rounded shadow-xl">
         <textarea
           className="w-11/12 h-auto max-h-40 resize-none p-2"
           value={input}
