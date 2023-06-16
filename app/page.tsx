@@ -8,7 +8,7 @@ export default function Chat() {
   const { messages, input, handleInputChange, handleSubmit } = useChat()
 
   return (
-    <div className="flex flex-col w-full max-w-lg py-24 mx-auto stretch">
+    <div className="flex flex-col w-full max-w-lg py-24 mx-auto stretch pb-44">
       {messages.length > 0
         ? messages.map((m) => (
             <Message key={m.id} role={m.role} content={m.content} />
