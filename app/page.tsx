@@ -15,7 +15,7 @@ export default function Chat() {
           ))
         : null}
 
-      <form onSubmit={handleSubmit} className="flex justify-between items-center fixed bottom-0 w-full max-w-lg p-2 mb-8 border border-gray-300 rounded shadow-xl">
+      <form onSubmit={handleSubmit} className="bg-white flex justify-between items-center fixed bottom-0 w-full max-w-lg p-2 mb-8 border border-gray-300 rounded shadow-xl">
         <textarea
           className="w-11/12 h-auto max-h-40 resize-none p-2"
           value={input}
